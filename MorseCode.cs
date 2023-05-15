@@ -12,10 +12,10 @@ namespace TextToMorseCodeConverter
         public MorseCode()
         {
             Sequences = new Dictionary<string, string>();
-            GetSequences();
+            PopulateSequences();
         }
 
-        private void GetSequences()
+        private void PopulateSequences()
         {
             Sequences.Add("A", ".-");
             Sequences.Add("B", "-...");
