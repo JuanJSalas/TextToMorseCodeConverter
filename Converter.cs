@@ -23,6 +23,7 @@ namespace TextToMorseCodeConverter
                 Sb.Append("There is no text to convert.");
             else
             {
+                Sb.Clear();
                 foreach (var letter in text)
                 {
                     if (Morse.Sequences.TryGetValue(letter.ToString(), out string value))

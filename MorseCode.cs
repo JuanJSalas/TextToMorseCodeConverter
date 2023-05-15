@@ -53,6 +53,24 @@ namespace TextToMorseCodeConverter
             Sequences.Add("8", "---..");
             Sequences.Add("9", "----.");
             Sequences.Add("0", "-----");
+            Sequences.Add(".", ".-.-.-");
+            Sequences.Add(",", "--..--");
+            Sequences.Add("?", "..--..");
+            Sequences.Add("'", ".---.");
+            Sequences.Add("!", "-.-.--");
+            Sequences.Add("/", "-..-."); 
+            Sequences.Add("(", "-.--.");
+            Sequences.Add(")", "-.--.-");
+            Sequences.Add("&", ".-...");
+            Sequences.Add(":", "---...");
+            Sequences.Add(";", "-.-.-.");
+            Sequences.Add("=", "-...-");
+            Sequences.Add("+", ".-.-.");
+            Sequences.Add("-", "-....-");
+            Sequences.Add("_", "..--.-");
+            Sequences.Add("\"", ".-..-.");
+            Sequences.Add("$", "...-..-");
+            Sequences.Add("@", ".--.-.");
         }
     }
 }
